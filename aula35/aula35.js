@@ -6,13 +6,21 @@ todoscursos.map((el)=>{
     el.addEventListener('click',(evt)=>{
         const curso=evt.target
         curso.classList.toggle('selecionado')
-
+       
     })
 })
-btn.addEventListener('click',()=>{
+ btn.addEventListener('click',()=>{
     const cursosselecionados=[...document.querySelectorAll('.selecionado')]
+      const cursosnaoselecionados=[...document.querySelectorAll('.curso:not(.selecionado)')] 
+      console.log(cursosnaoselecionados) 
+    
     cursosselecionados.map((el)=>{
         caixa2.appendChild(el)
-
     })
-})
+     cursosnaoselecionados.map((el)=>{
+        caixa1.appendChild(el)
+    })
+    
+      
+            
+    })

@@ -1,14 +1,26 @@
-const divtodas=[...document.getElementsByTagName('div')]
-const cursostodos=[...document.querySelectorAll('.curso')]
-const query_cursosC1=[...document.querySelectorAll('.c1,p')]
-const query_cursosC2=[...document.querySelectorAll('.c2')]
-const cursoespecial=document.querySelectorAll('#c1')[0]
-const query_divtodas=[...document.querySelectorAll('div')]
-const query_cursostodos=[...document.querySelectorAll('div >p')]
-const query_divtodas_my =[...document.querySelectorAll('div >p')]; 
-// console.log(divtodas)
-console.log(query_divtodas_my)
+const divTodos=[...document.getElementsByTagName('div')]
+const cursoTodos=[...document.getElementsByClassName('curso')]
 
-// console.log(query_cursosC1)
-// console.log(query_cursosC2)
+const cursoC1=[...document.getElementsByClassName('c1')]
+const cursoC2=[...document.getElementsByClassName('c2')]
+const cursoespecial=document.getElementById('c1')
+const query_div_todas=[...document.querySelectorAll('div >p')]
+const quary_cursos_todos=[...document.querySelectorAll('.curso')]
+const querycursoC1=[...document.querySelectorAll('.c1,p')]
+const querycursoC2=[...document.querySelectorAll('.c2')]
+const querycursoespecial=document.querySelector('#c1')
+console.log(query_div_todas)
+// console.log(quary_cursos_todos)
+// console.log(querycursoC1)
+// console.log(querycursoC2)
+// console.log(querycursoespecial)
+// console.log(cursoTodos)
+
+// console.log(divTodos)
+// console.log(cursoC1)
+// console.log(cursoC2)
 // console.log(cursoespecial)
+
+// cursoC2.map((el)=>{
+//     el.classList.add('destaque')
+// })
