@@ -1,6 +1,6 @@
 function* contador(){
     let i=0
-    while(true){
+    while (true){
         yield i++
         if(i>5){
             break

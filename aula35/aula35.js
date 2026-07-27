@@ -11,13 +11,15 @@ todoscursos.map((el)=>{
 })
  btn.addEventListener('click',()=>{
     const cursosselecionados=[...document.querySelectorAll('.selecionado')]
-      const cursosnaoselecionados=[...document.querySelectorAll('.curso:not(.selecionado)')] 
-      console.log(cursosnaoselecionados) 
+    const cursosnaoselecionados=[...document.querySelectorAll('.curso:not(.selecionado)')]
+    console.log(cursosnaoselecionados)
+
+   
     
     cursosselecionados.map((el)=>{
         caixa2.appendChild(el)
     })
-     cursosnaoselecionados.map((el)=>{
+      cursosnaoselecionados.map((el)=>{
         caixa1.appendChild(el)
     })
     

@@ -1,4 +1,4 @@
 let n1=20
 
-let res= n1 >> 2
-console.log(res)
+let res = n1 >> 1
+console.log(res) 

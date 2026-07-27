@@ -1,4 +1,4 @@
-let st="A"
+let st='a'
 
-res=((st=="A") ? 'Ativo' : 'Inativo')
+res=(st == 'a' ? 'ativo' :'inativo')
 console.log(res)

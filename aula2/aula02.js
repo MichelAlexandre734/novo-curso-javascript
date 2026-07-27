@@ -1,5 +1,5 @@
-"use strict" // modo restrito
+"use strict" //modo estrito
 let nome='michel'
-console.log('herzenbest')
+console.log('cfd cursos')
 console.log(nome)
-console.log(' nome: ' + nome)
+console.log('nome: ' + nome)

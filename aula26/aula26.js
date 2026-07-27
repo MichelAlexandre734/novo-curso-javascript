@@ -1,16 +1,17 @@
- const somar=val=>{
+const somar=val=>{
         let res=0
-        for(v of val){
-            res+=v
-         
+        for(let v of val){
+            res+=v      
         }
-           return res
-         
+         return res  
+      
     }
+
 const soma=(...valores)=>{
-   
-     return somar(valores)
-  
+    
+     return somar(valores) 
 }
-valor=[10,5,5]
+
+console.log(soma(10,5,15))
+let valor=[10,5,15]
 console.log(soma(...valor))
